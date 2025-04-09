@@ -6,7 +6,7 @@ from PIL import Image
 
 # Configuration
 TESSERACT_PATH = r'C:\Program Files\Tesseract-OCR\tesseract.exe'  # Windows only (comment out on Mac/Linux)
-API_KEY = "5617294e-f66c-4090-9cfe-1f600655a3f9"  # Replace with your actual API key
+API_KEY = "YOUR API KEY"  # Replace with your actual API key
 
 def capture_card():
     """Capture image from webcam and save as 'pokemon_card.jpg'"""
